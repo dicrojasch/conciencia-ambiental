@@ -71,7 +71,7 @@ input::-moz-focus-inner {
 }
 
 .use-middle > ul{
-	margin-left: 66px;
+	margin-left: 95px;
 }
 
 input, select, textarea {
@@ -87,13 +87,27 @@ input, select, textarea {
 		width: device-width;
 	}
 
-	@media screen and (max-width: 618px) {
+	@media screen and (max-width: 619px) {
 		html, body {
 			min-width: 320px;
 		}
 
 		.use-middle > ul {
 			margin-left: 0px;
+		}
+	}
+
+	@media screen and (min-width: 673px)  and (max-width: 677px) {
+
+		.use-middle > ul {
+			margin-left: 80px;
+		}
+	}
+
+	@media screen and (min-width: 619px)  and (max-width: 672px) {
+
+		.use-middle > ul {
+			margin-left: 75px;
 		}
 	}
 
