@@ -74,6 +74,23 @@ input::-moz-focus-inner {
 	margin-left: 95px;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row{
+    max-width: 850px;
+    margin: auto;
+}
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 iframe {
     max-width: 100%;
     height: auto;
